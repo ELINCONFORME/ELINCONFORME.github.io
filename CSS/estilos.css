@@ -277,6 +277,10 @@ display: flex;
     height: 200px;
     object-fit: cover;
 }
+.image_event
+    {
+        object-position: 0 -138px;
+    }
 .event-detalles
 {
     margin: 20px 40px;
@@ -417,6 +421,10 @@ display: flex;
      {
       margin-left: 0;
      }
+     .image_event
+     {
+         object-position: 0 -138px;
+     }
      .portfolio
      {
          padding: 0;
@@ -437,6 +445,7 @@ display: flex;
     {
         /* width: auto; */
         position: absolute;
+        object-position: 0 -10px;
         z-index: 1;
         left: 0;
         top: -99px;
@@ -464,6 +473,7 @@ display: flex;
  }
  @media screen and (max-width:767px)
  {
+
      h2 
      {
          font-size: 1.2em;
@@ -591,6 +601,10 @@ display: flex;
     {
         width: 100%;
     }
+    .image_event
+    {
+        object-position: 0 -200px;
+    }
 
 }
 @media screen and (max-width: 524px)
@@ -598,7 +612,7 @@ display: flex;
     
         h1
         {
-            font-size: 1,5em;
+            font-size: unset;
         }
         .project_dimencionTxto
         {
@@ -609,6 +623,10 @@ display: flex;
         {
             margin: -2em .5em .5em;
             padding: 1em;
+        }
+        .image_event
+        {
+            object-position: 0 -140px;
         }
         .contactos
         {
@@ -649,6 +667,10 @@ display: flex;
     {
         width: auto;
         font-size: 14px;
+    }
+    .image_event
+    {
+        object-position: 0 -140px;
     }
     .event-detalles
     {
@@ -694,5 +716,9 @@ display: flex;
     }
     .hello{
         padding: 2em 1em;
+    }
+    .image_event
+    {
+        object-position: 0 -70px;
     }
  }
