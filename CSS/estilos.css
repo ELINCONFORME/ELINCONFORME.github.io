@@ -277,10 +277,12 @@ display: flex;
     height: 200px;
     object-fit: cover;
 }
+
 .image_event
     {
         object-position: 0 -138px;
     }
+    
 .event-detalles
 {
     margin: 20px 40px;
